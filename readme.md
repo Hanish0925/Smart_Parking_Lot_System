@@ -35,15 +35,18 @@ This project is built using **Node.js**, **Express.js**, and an in-memory databa
 - npm (Node Package Manager)
 
 ### Installation
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/Hanish0925/Smart_Parking_Lot_System.git
-cd Smart_Parking_Lot_System
+   cd smart-parking-lot-system
    ```
+
 2. Install dependencies:
     ```sh
     npm install
     ```
+
 3. Set up environment variables:
     - Create a `.env` file in the root directory.
     - Add the following environment variables:
@@ -83,7 +86,7 @@ cd Smart_Parking_Lot_System
         ```
 - **Get Availabilty**
     - `GET /parking/availability`
-    
+
 ## Running Tests
 
 To run the tests, use the following command:
